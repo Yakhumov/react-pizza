@@ -5,8 +5,8 @@ import Home from "./Pages/Home";
 import Notfound from "./Pages/Notfound";
 import { Route, Routes } from "react-router-dom";
 import Cart from "./Pages/Cart";
+import FullPizza from "./components/FullPizza"; 
 import { useState } from "react";
-import FullPizza from "./components/FullPizza";
 
 export const SearchContext = React.createContext();  
 function App() {
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App     
+export default App      
