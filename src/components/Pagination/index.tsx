@@ -2,6 +2,7 @@ import React from 'react'
 import ReactPaginate from 'react-paginate'
 import styles from './Pagination.module.scss'
 
+
 type PaginationProps ={
   pageCount: number,
   onChangePage: (id: number ) =>(void)  
