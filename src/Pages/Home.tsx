@@ -14,8 +14,8 @@ import {
 import qs from "qs";
 import { Link, useNavigate } from "react-router-dom";
 import { fetchPizza } from "../Redux/Slices/pizzaSlice"; 
-import { SearchContext } from "../App";
 import { useAppDispatch } from "../Redux/Slices/store";
+import { SearchContext } from "../App";
 
 const   Home: React.FC = ()=> {
   const navigate = useNavigate();
